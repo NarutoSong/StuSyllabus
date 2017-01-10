@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="270dp"
+    android:elevation="10dp"
+    android:background="@drawable/main_table_bg"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/id_main_syllabustable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/main_margin_horizontal"
+            android:layout_marginRight="@dimen/main_margin_horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/main_table_row0_textpadding"
+                android:paddingTop="@dimen/main_table_row0_textpadding"
+                android:text=" " />
+
+            <TextView
+                style="@style/style_main_table_tv_headertop"
+                android:text="一" />
+
+            <TextView
+                style="@style/style_main_table_tv_headertop"
+                android:text="二" />
+
+            <TextView
+                style="@style/style_main_table_tv_headertop"
+                android:text="三" />
+
+            <TextView
+                style="@style/style_main_table_tv_headertop"
+                android:text="四" />
+
+            <TextView
+                style="@style/style_main_table_tv_headertop"
+                android:text="五" />
+
+            <TextView
+                style="@style/style_main_table_tv_headertop"
+                android:text="六" />
+
+            <TextView
+                style="@style/style_main_table_tv_headertop"
+                android:text="日" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/main_curriculum_row0"
+            style="@style/style_main_table_tablerow">
+
+            <LinearLayout style="@style/stylle_main_table_headerleft_linearlayout">
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="1" />
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="2" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_curriculum00"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum01"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum02"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum03"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum04"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum05"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum06"
+                style="@style/style_main_table_tv" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/main_curriculum_row1"
+            style="@style/style_main_table_tablerow">
+
+            <LinearLayout style="@style/stylle_main_table_headerleft_linearlayout">
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="3" />
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="4" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_curriculum10"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum11"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum12"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum13"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum14"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum15"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum16"
+                style="@style/style_main_table_tv" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/main_curriculum_row2"
+            style="@style/style_main_table_tablerow">
+
+            <LinearLayout style="@style/stylle_main_table_headerleft_linearlayout">
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="5" />
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="6" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_curriculum20"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum21"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum22"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum23"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum24"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum25"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum26"
+                style="@style/style_main_table_tv" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/main_curriculum_row3"
+            style="@style/style_main_table_tablerow">
+
+            <LinearLayout style="@style/stylle_main_table_headerleft_linearlayout">
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="7" />
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="8" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_curriculum30"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum31"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum32"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum33"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum34"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum35"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum36"
+                style="@style/style_main_table_tv" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/main_curriculum_row4"
+            style="@style/style_main_table_tablerow">
+
+            <LinearLayout style="@style/stylle_main_table_headerleft_linearlayout">
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="9" />
+
+                <TextView
+                    style="@style/style_main_table_tv_headerleft"
+                    android:text="10" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/main_curriculum40"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum41"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum42"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum43"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum44"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum45"
+                style="@style/style_main_table_tv" />
+
+            <TextView
+                android:id="@+id/main_curriculum46"
+                style="@style/style_main_table_tv" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
